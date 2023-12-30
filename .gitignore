@@ -1,89 +1,27 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
 
-# C extensions
-*.so
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/interim/2010-2023 Crime_Traffic_Collisions_Data_R1 .csv	
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/interim/victim_age_feature_data_unscaled.csv	
+	
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/interim/victim_sex_feature_data_unscaled.csv
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/interim/2010-2023 Crime_Traffic_Collisions_Data_R2 .csv	
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/interim/victim_age_target_data_unscaled.csv	
+	
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/interim/victim_sex_target_data_unscaled.csv
 
-# Translations
-*.mo
-*.pot
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/processed/victim_age_feature_data_processed.csv	
 
-# Django stuff:
-*.log
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/processed/victim_age_target_data_processed.csv	
 
-# Sphinx documentation
-docs/_build/
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/processed/victim_sex_feature_data_processed.csv	
 
-# PyBuilder
-target/
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/processed/victim_sex_target_data_processed.csv
 
-# DotEnv configuration
-.env
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/raw/2010-2023 Crime_Traffic_Collisions_Data .csv
 
-# Database
-*.db
-*.rdb
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/models/victim_age_predictor_model.pkl	
 
-# Pycharm
-.idea
-
-# VS Code
-.vscode/
-
-# Spyder
-.spyproject/
-
-# Jupyter NB Checkpoints
-.ipynb_checkpoints/
-
-# exclude data from source control by default
-/data/
-
-# Mac OS-specific storage files
-.DS_Store
-
-# vim
-*.swp
-*.swo
-
-# Mypy cache
-.mypy_cache/
+/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/models/victim_sex_predictor_model.pkl
