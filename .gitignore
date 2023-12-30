@@ -1,27 +1,16 @@
 
+# Ignored files and directories due to file size >100mb
 
-/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/interim/2010-2023 Crime_Traffic_Collisions_Data_R1 .csv	
-
-/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/interim/victim_age_feature_data_unscaled.csv	
-	
-/Users/frankyaraujo/Development/springboard_main/Capstone Two/Springboard-Capstone-Two/src/data/interim/victim_sex_feature_data_unscaled.csv
-
-/Users/frankyaraujo/Development/springboard_main/Capstone\ Two/Springboard-Capstone-Two/src/data/interim/2010-2023 Crime_Traffic_Collisions_Data_R2 .csv	
-
-/Users/frankyaraujo/Development/springboard_main/Capstone\ Two/Springboard-Capstone-Two/src/data/interim/victim_age_target_data_unscaled.csv	
-	
-/Users/frankyaraujo/Development/springboard_main/Capstone\ Two/Springboard-Capstone-Two/src/data/interim/victim_sex_target_data_unscaled.csv
-
-/Users/frankyaraujo/Development/springboard_main/Capstone\ Two/Springboard-Capstone-Two/src/data/processed/victim_age_feature_data_processed.csv	
-
-/Users/frankyaraujo/Development/springboard_main/Capstone\ Two/Springboard-Capstone-Two/src/data/processed/victim_age_target_data_processed.csv	
-
-/Users/frankyaraujo/Development/springboard_main/Capstone\ Two/Springboard-Capstone-Two/src/data/processed/victim_sex_feature_data_processed.csv	
-
-/Users/frankyaraujo/Development/springboard_main/Capstone\ Two/Springboard-Capstone-Two/src/data/processed/victim_sex_target_data_processed.csv
-
-/Users/frankyaraujo/Development/springboard_main/Capstone\ Two/Springboard-Capstone-Two/src/data/raw/2010-2023 Crime_Traffic_Collisions_Data\ .csv
-
-/Users/frankyaraujo/Development/springboard_main/Capstone\ Two/Springboard-Capstone-Two/src/models/victim_age_predictor_model.pkl	
-
-/Users/frankyaraujo/Development/springboard_main/Capstone\ Two/Springboard-Capstone-Two/src/models/victim_sex_predictor_model.pkl
+/src/data/interim/2010-2023 Crime_Traffic_Collisions_Data_R1 .csv
+/src/data/interim/victim_age_feature_data_unscaled.csv
+/src/data/interim/victim_sex_feature_data_unscaled.csv
+/src/data/interim/2010-2023 Crime_Traffic_Collisions_Data_R2 .csv
+/src/data/interim/victim_age_target_data_unscaled.csv
+/src/data/interim/victim_sex_target_data_unscaled.csv
+/src/data/processed/victim_age_feature_data_processed.csv
+/src/data/processed/victim_age_target_data_processed.csv
+/src/data/processed/victim_sex_feature_data_processed.csv
+/src/data/processed/victim_sex_target_data_processed.csv
+/src/data/raw/2010-2023 Crime_Traffic_Collisions_Data .csv
+/src/models/victim_age_predictor_model.pkl
+/src/models/victim_sex_predictor_model.pkl
