@@ -11,14 +11,30 @@ Project Organization
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   ├── Links to Data.txt   <- Project data stored on Google cloud  
+    │       ├── data            <- Navigate to this using the Project Data Link within 'Links to Data.txt'
+    │             ├── interim   <- Intermediate data that has been transformed (Various versions available)
+    │                 
+    │                 └── 2010-2023 Crime_Traffic_Collisions_Data_R1 .csv     <- 1st revision of data during wrangling/cleaning
+    │                 └── 2010-2023 Crime_Traffic_Collisions_Data_R2 .csv     <- 2nd revision of data during wrangling/cleaning
+    │                 └── victim_age_feature_data_unscaled.csv                <- split preprocessed input data before scaling
+    │                 └── victim_age_target_data_unscaled.csv                 <- split preprocessed target data before scaling
+    │                 └── victim_sex_feature_data_unscaled.csv                <- split preprocessed input data before scaling
+    │                 └── victim_sex_target_data_unscaled.csv                 <- split preprocessed target data before scaling
+    │    
+    │             ├── processed  <- The final, canonical data sets for modeling.                                  
+    │                  └── victim_age_feature_data_processed.csv           <- fully preprocessed data ready to train model
+    │                  └── victim_age_target_data_processed.csv            <- fully preprocessed data ready to train model
+    │                  └── victim_sex_feature_data_processed.csv           <- fully preprocessed data ready to train model
+    │                  └── victim_sex_target_data_processed.csv            <- fully preprocessed data ready to train model
+    │                  
+    │             ├── raw    <- Data from third party sources
+    │                   └── 2010-2023 Crime_Traffic_Collisions_Data .csv  <- The original, immutable data dump.   
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Trained and serialized models
+    │   ├── Links to Data.txt   <- pkl files stored on Google cloud  
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
