@@ -1,5 +1,6 @@
 # local package
 -e .
+Library
 
 # external requirements
 click
@@ -8,3 +9,19 @@ coverage
 awscli
 flake8
 python-dotenv>=0.5.1
+
+Pandas version: 1.5.3
+Numpy version: 1.23.5
+Matplotlib version: 3.7.0
+Seaborn version: 0.12.2
+Nltk version: 3.7
+Gensim version: 4.3.0
+Scipy version: 1.10.0
+Sklearn
+Statsmodels version: 0.13.5
+Pickle 
+Datetime
+Copy 
+Bayes_opt
+Time  
+Pprint
