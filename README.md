@@ -1,13 +1,14 @@
-Project Template
-==============================
+Aid for Victims of Crimes: LA Support Strategies
+=============================================
 
-Directory structure
+> By utilizing LAPD crime records to develop predictive models, we have now established a tool for anticipating the age and gender of individuals impacted by criminal activities. This dataset captures instances of criminal activities in Los Angeles since 2020. The information is derived from crime reports originally documented on paper, which presented several challenges in the completeness and structure of the collected data.**
+> 
+>To navigate this and achieve working models, several techniques were applied, such as imputation, encoding, vectorization, and assessment of feature importance. Two models were derived due to the nature of the target variables (i.e., gender is categorical, and age is numerical). The final products are a Random Forest and Gradient Boosting model.
 
 Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
